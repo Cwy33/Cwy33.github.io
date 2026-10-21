@@ -1,1 +1,86 @@
 
+/*
+Name: Cameron Yoakem
+Date: October 20, 2026
+File: styles.css
+*/
+
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the page background and font */
+body {
+    background-color: #417589;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #163b50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #e8f1f2;
+    padding: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav a {
+    color: #163b50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #168aad;
+}
+
+/* Style the main content */
+main {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 1000px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
