@@ -47,11 +47,37 @@ nav a {
     text-decoration: none;
 }
 
-/* Main */
+/* Style rules for main content */
 main {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
+    padding: 2%;
+    background-color: #e3eef2;
+    font-family: Georgia, Times, serif;
+}
+
+main h2 {
+    color: #213B45;
+}
+
+main p {
+    font-size: 1.25em;
+    color: #0F252E;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #417589;
+}
+
+main ul {
+    list-style-type: square;
+    font-size: 1.15em;
+}
+
+/* Action */
+.action {
+    color: #417589;
+    font-weight: bold;
 }
 
 /* Images */
@@ -66,3 +92,4 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
